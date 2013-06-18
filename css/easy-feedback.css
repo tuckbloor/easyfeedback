@@ -1,0 +1,32 @@
+.easy_feedback {
+	width: 260px;
+	margin: 0;
+	padding: 20px;
+	background-color: #f1f1f1;
+}
+
+.easy_feedback label {
+	display: block;
+	text-align: right;
+	margin-right: 20px;
+	width: 40px;
+	float: left;
+}
+
+.easy_feedback input[type=text], input[type=email]  {
+	width: 190px;
+}
+
+.easy_feedback select {
+	width: 195px;
+}
+
+.easy_feedback .fb_button {
+	padding: 5px;
+	float: right;
+	background-color: #00ffff;
+	border-radius: 8px;
+}
+.clear {
+	clear: both;
+}
