@@ -105,6 +105,6 @@ else {
       <span itemprop="average"><?php echo number_format($average,2); ?></span>
       out of <span itemprop="best">5</span>
     </span>
-    based on <span itemprop="votes"><?php echo $num; ?></span> ratings.
-    <span itemprop="count"><?php echo $num; ?></span> user reviews.
+    Based on <span itemprop="votes"><?php echo $num; ?></span> <?php echo ($num ==1) ? "rating" : "ratings"; ?>
+    <span itemprop="count">User <?php echo $num; ?></span> <?php echo ($num ==1) ? "review" : "reviews"; ?>
   </div>
