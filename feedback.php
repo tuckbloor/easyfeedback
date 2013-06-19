@@ -77,7 +77,7 @@ $(document).ready(function() {
  	$hash = md5($email);
  	$name = $row['name'];
  	$ratings = $row['rating'];
- 	$rating = "$ratings" . "star.png";
+ 	$rating = "$ratings" . "star.jpg";
  	$numStars = $numStars + $ratings;
 
  	echo "<div class=\"comments\">";

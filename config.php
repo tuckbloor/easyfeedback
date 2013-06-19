@@ -1,12 +1,12 @@
 <?php
-            $db = 'test';
+            $db = 'feedback';
             $host= 'localhost';
             $username = 'root';
             $password = '';
 			
-            $photo = 'logo.jpg';
-	        $company = 'Company Name';
+            $photo = '';
+	        $company = 'Easy Web Feedback';
 
-	        $to = 'example@example.com';
-	        $from = 'feedback';
+	        $to = 'tuck.bloor@ntlworld.com';
+	        $from = 'feedback@easywebfeedback.co.uk';
             ?>
