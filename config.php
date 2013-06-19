@@ -8,5 +8,5 @@
 $company = 'Company Name';
 
 $to = 'example@example.com';
-$from = 'feedback form';
+$from = 'feedback';
             ?>
